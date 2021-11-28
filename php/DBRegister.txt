@@ -1,0 +1,10 @@
+create table regist_db(
+	reg_id int(128) not null PRIMARY KEY AUTO_INCREMENT,
+    	reg_user varchar(128) not null,
+    	reg_given varchar(128) not null,
+    	reg_middle varchar(128) not null,
+    	reg_course varchar(128) not null,
+    	reg_year varchar(128) not null,
+    	reg_atm varchar(128) not null
+    	
+);

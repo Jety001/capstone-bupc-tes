@@ -1,0 +1,8 @@
+create table accounts_db(
+		comment_id int(128) not null PRIMARY KEY AUTO_INCREMENT,
+    	parent_comment_id varchar(128) not null,
+    	comment varchar(128) not null,
+    	comment_sender_name varchar(128) not null,
+    	date datetime not null
+    	
+);

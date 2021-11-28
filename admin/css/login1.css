@@ -1,0 +1,99 @@
+.img {
+  margin-left: 50%;
+  width: 50%;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+}
+
+body {
+  background-image: linear-gradient(#056a9f, #fc8f02);
+  background-position: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+ {
+  margin: 10px 0px 0px 60px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-right: 60px;
+  letter-spacing: 5px;
+  float: left;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Century Gothic;
+}
+
+a:hover {
+  color: #fcca02;
+}
+
+#t {
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: Century Gothic;
+  padding: 190px 0px 0px 90px;
+  margin: 0px;
+}
+
+form {
+  margin: 45px 0px 0px 90px;
+}
+
+#info {
+  font: 18px Century Gothic;
+  color: black;
+  height: 40px;
+  width: 300px;
+  max-width: 300px;
+  min-width: 300px;
+  border-style: none;
+  border-bottom: 3px solid #00f0ff;
+  background-color: transparent;
+  outline: none;
+  caret-color: white;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.loginBtn {
+  height: 40px;
+  font: bold 18px Century Gothic;
+  color: white;
+  background-color: #00f0ff;
+  border: 2px solid #00f0ff;
+  width: 300px;
+  border-radius: 40px;
+  outline: none;
+  margin-left: px;
+}
+
+.loginBtn:hover {
+  cursor: pointer;
+  background-color: rgba(255, 150, 0);
+  border-color: rgba(255, 150, 0);
+}
+
+.prompt {
+  color: #ff5252;
+  position: absolute;
+  font-family: century gothic;
+  margin: 290px 0px 0px 80px;
+}
+
+.successReg {
+  color: #2ecc71;
+}

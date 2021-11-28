@@ -1,0 +1,101 @@
+body
+{
+	background-color: blanchedalmond;
+	/* background-image: url(../img/bgs/indexV.png); */
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	padding-right: 60px;
+	letter-spacing: 5px;
+	float: right;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+
+a:hover
+{
+	color: #DE1C4B;
+}
+
+#create
+{
+	color: black;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: Century Gothic;
+	padding: 190px 0px 0px 90px;
+	margin: 0px;
+}
+
+form
+{	
+	margin: 45px 0px 0px 90px;
+}
+
+#info
+{
+	font: 18px Century Gothic;
+	height: 40px;
+	width: 300px;
+	max-width: 300px;
+	min-width: 300px;
+	padding-left: 12px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+	outline: none;
+}
+
+.signupBtn
+{
+	height: 40px;
+	font: bold 18px Century Gothic;
+	color: #DE1C4B;
+	background-color: transparent;
+	border: 2px solid #DE1C4B;
+	width: 200px;
+	border-radius: 40px;
+	outline: none;
+	margin-left: 50px;
+}
+
+.signupBtn:hover
+{
+	cursor: pointer;
+	background-color: hsla(344, 87%, 70%, .2);
+}
+
+.prompt
+{
+	color: #FF5252;
+	position: absolute;
+	font-family: century gothic;
+	margin: 280px 0px 0px 93px;
+}
+
+.successReg
+{
+	color: #2ECC71 ;
+}
+
+.redirect
+{
+	text-decoration: underline;
+	margin: 280px 0px 0px 300px;
+	position: absolute;
+}

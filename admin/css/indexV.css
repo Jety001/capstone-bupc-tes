@@ -1,0 +1,95 @@
+body
+{
+	background-color: blanchedalmond;
+	/* background-image: url(../img/bgs/background2.png); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ul
+{
+	
+	list-style-type: none;
+}
+
+li
+{
+	padding-right: 60px;
+	letter-spacing: 5px;
+	float: right;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+	font-family: Century Gothic;
+}
+
+a:hover
+{
+	color: #DE1C4B;
+}
+
+#t
+{
+	color: white;
+	font-weight: bold;
+	font-size: 85px;
+	font-family: Century Gothic;
+	padding: 180px 0px 0px 90px;
+	margin: 0px;
+}
+
+#st
+{
+	padding-left: 90px;
+	margin-top: 0px;
+	color: #FF9696;
+	font-family: Century Gothic;
+	font-size: 35px;
+}
+
+.btns
+{
+	margin: 50px 0px 0px 90px;
+}
+
+.btn
+{
+	font: bold 20px century gothic;
+	border-radius: 20px;
+	outline: none;
+	display: block;
+}
+
+.login
+{
+	color: white;
+	padding: 12px 170px;
+	margin-bottom: 15px;
+	background-color: #DE1C4B;
+	border: 2px solid #DE1C4B;
+}
+
+.login:hover
+{
+	cursor: pointer;
+	background-color: rgba(222, 28, 75, .8);
+	border-color: rgba(222, 28, 75, .8);
+}
+
+.signup
+{
+	left: 97px;
+	padding: 12px 164px;
+	border: 2px solid #DE1C4B;
+	color: #DE1C4B;
+	background-color: transparent;
+}
+
+.signup:hover
+{
+	cursor: pointer;
+	background-color: hsla(344, 87%, 70%, .2);
+}

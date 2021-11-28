@@ -1,0 +1,8 @@
+https://localhost/BUPC_TES_MS/php/user/teslist.php
+https://localhost/BUPC_TES_MS/php/user/index.php
+https://localhost/BUPC_TES_MS/php/user/CONTACT.php
+https://localhost/BUPC_TES_MS/php/user/HOME.php
+https://localhost/BUPC_TES_MS/php/user/GALLERY.php
+https://localhost/BUPC_TES_MS/php/user/ABOUT.php
+https://localhost/BUPC_TES_MS/php/user/Announcement.php
+https://localhost/BUPC_TES_MS/index.php
