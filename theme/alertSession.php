@@ -1,16 +1,12 @@
- <style>
-    .swal2-popup {
-            font-size: 12px !important;
-    }
-</style>
+
 <?php
-    if (isset($_SESSION['status']) && $_SESSION['status'] !='') {
+    if (isset($_SESSION['status'])) {
         ?>
             <script>
                     Swal.fire({
-                    position: 'bottom-end',
+                    icon: '<?php echo $_SESSION['icon'] ?>',
                     text: '<?php echo $_SESSION['text'] ?>',
-                    width: '17rem',
+                   
                     showConfirmButton: false,
                     timer: 1600
                 })

@@ -3,7 +3,7 @@ include("php/ess/connect.php");
 
 ?>
 
-<?php 
+<?php
 
 session_start();
 
@@ -53,6 +53,16 @@ if (!isset($_SESSION['user_name'])) {
     <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
 
+
+    <!-- Alert JS -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -87,12 +97,14 @@ if (!isset($_SESSION['user_name'])) {
     </nav>
 
 
-
+    <?php include("alertSession.php"); ?>
 
 
     </div>
     <?php require_once $content; ?>
     <!-- End of Main Content -->
+
+  
 
 
 
